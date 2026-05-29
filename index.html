@@ -115,6 +115,12 @@
       box-shadow: 0 2px 20px rgba(45,116,104,.12);
       backdrop-filter: blur(8px);
     }
+    /* Fondo oscuro (hero) → textos blancos */
+    .navbar:not(.scrolled) .nav-links a         { color: rgba(255,255,255,.88); }
+    .navbar:not(.scrolled) .nav-links a:hover   { color: var(--teal-light); }
+    .navbar:not(.scrolled) .logo-name           { color: rgba(255,255,255,.95); }
+    .navbar:not(.scrolled) .logo-tagline        { color: rgba(255,255,255,.6); }
+    .navbar:not(.scrolled) .hamburger span      { background: rgba(255,255,255,.9); }
     .navbar-inner {
       max-width: 1140px;
       margin: 0 auto;
